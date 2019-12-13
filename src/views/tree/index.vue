@@ -1,16 +1,7 @@
 <template>
   <div class="app-container">
-    <el-input v-model="filterText" placeholder="Filter keyword" style="margin-bottom:30px;" />
-
-    <el-tree
-      ref="tree2"
-      :data="data2"
-      :props="defaultProps"
-      :filter-node-method="filterNode"
-      class="filter-tree"
-      default-expand-all
-    />
-
+    <el-card>主机地址：192.168.5.189  / 账号：twiseit / 密码：tws123456</el-card>
+    <iframe src="http://192.168.5.189:8000/" width="960" height="1180"></iframe>
   </div>
 </template>
 
